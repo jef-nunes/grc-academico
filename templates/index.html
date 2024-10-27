@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        body{
+            color: black;
+            display: flex;
+            flex-direction: column;
+        }
+        #subtitulo{
+            margin-top: 20px;
+            font-size: 24px;
+            color: rgb(73, 101, 146);
+            font-family: sans-serif;
+            text-align: left;
+            width: 400px;
+        }
+        #logo-container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+        }
+        .bt-nav-0{
+            font-size: 18px;
+            padding: 5px;
+        }
+        #splash{
+            margin-top: 10px;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo-container">
+    <img src="../static/images/studyware_logo.png" alt="" width=100>
+    <h1>Studyware</h1>
+    </div>
+    <div id="nav">
+    <button id="bt-inicio" class="bt-nav-0">Início</button>
+    <button id="bt-meus-projetos" class="bt-nav-0">Meus Projetos</button>
+    <button id="bt-sobre" class="bt-nav-0">Sobre</button>
+    </div>
+    <h1 id="subtitulo">Gerenciamento inteligente de projetos acadêmicos e escolares</h1>
+    <img id="splash" src="../static/images/studyware_splash.png" alt="">
+    <script src="../static/js/index.js"></script>
+</body>
+</html>
